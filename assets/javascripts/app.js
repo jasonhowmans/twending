@@ -3,5 +3,7 @@
  * ================================================== */
 
 $(function() {
-
+	$.get('/stream/hello', function(r) {
+		console.log(r);
+	});
 });
