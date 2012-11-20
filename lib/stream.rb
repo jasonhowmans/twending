@@ -1,3 +1,6 @@
+require 'open-uri'
+require 'json'
+
 # ==================================================
 # S T R E A M  >>  T W E N D I N G
 # ==================================================
@@ -25,8 +28,9 @@ module Twending
       end
     end
 
-    get '/hello' do
-      "Hello, #{session[:user_id]}"
+    get '/trends/:woeid' do
+      #open('https://api.twitter.com/1.1/trends/place.json?id=1')
+
     end
 
     def self.new(*)
