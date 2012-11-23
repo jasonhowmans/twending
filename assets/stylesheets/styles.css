@@ -67,5 +67,12 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 
 
 /* ================================================== T W E N D I N G   S T Y L E S By: Jason Howmans // www.jase.in // 17 Nov 2012  ==================================================  ================================================== */
 /* ================================================== T Y P O G R A P H Y ================================================== */
+.stripped-list, #front-container ul#trends-list, #front-container ul#trends-list ul.articles-list { list-style-type: none; margin: 0; padding: 0; }
+
 /* ================================================== G L O B A L S ================================================== */
+body { font: 16px/28px Helvetica, Arial, sans-serif; }
+
+h1 { color: #bfbfbf; font-size: 3em; }
+
 /* ================================================== F R O N T   P A G E ================================================== */
+#front-container { margin: 30px auto 0; width: 600px; }

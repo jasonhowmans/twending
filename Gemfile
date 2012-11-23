@@ -2,9 +2,8 @@ source :rubygems
 
 gem 'sinatra'
 
-# oAuth
-gem 'omniauth'
-gem 'omniauth-twitter'
+# oAuth & twitter
+gem 'twitter'
 
 group :test do
     gem 'rspec'

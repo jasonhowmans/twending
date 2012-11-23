@@ -11,13 +11,37 @@
 
 @import "typography";
 
+.stripped-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 /* ==================================================
  * G L O B A L S
  * ================================================== */
 body {
+	font: 16px/28px Helvetica, Arial, sans-serif;
+}
 
+// Typography
+h1 {
+	color: #bfbfbf;
+	font-size: 3em;
 }
 
 /* ==================================================
  * F R O N T   P A G E
  * ================================================== */
+ #front-container {
+ 	margin: 30px auto 0;
+ 	width: 600px;
+
+ 	ul#trends-list {
+ 		@extend .stripped-list;
+
+ 		ul.articles-list {
+ 			@extend .stripped-list;
+ 		}
+ 	}
+ }

@@ -17,6 +17,7 @@ var Twending = {
 	init: function(options) {
 		var o = $.extend({}, this.options, options);
 
+		
 	}
 
 };
