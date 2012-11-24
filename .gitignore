@@ -1,3 +1,7 @@
+# App specific #
+################
+config.yml
+
 # Compiled source #
 ###################
 *.com
