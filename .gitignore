@@ -1,6 +1,7 @@
 # App specific #
 ################
 ure.yml
+tmp/*
 
 # Compiled source #
 ###################
