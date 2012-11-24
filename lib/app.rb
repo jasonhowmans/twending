@@ -23,10 +23,10 @@ module Twending
 
     before do
       @client = Twitter::Client.new(
-        :consumer_key => "zB93XCuq08r3xJqJ1T8vw",
-        :consumer_secret => "FZ7HuRBDAzLidL91vQpdyr7a1cQZ55PNIEMGJFBloo",
-        :oauth_token => "20256024-NRZOI4e1lFZS6XJdvFeeoNDmavEv8lL9dTEZ0qTv0",
-        :oauth_token_secret => "ic4oTyYY6hv5ZoxgU5zn10PzMm7XIvsWNuuEbFiTCbw"
+        :consumer_key => CONFIG['twitter']['consumer_key'],
+        :consumer_secret => CONFIG['twitter']['consumer_secret'],
+        :oauth_token => CONFIG['twitter']['oauth_token'],
+        :oauth_token_secret => CONFIG['twitter']['oauth_token_secret']
         )
     end
 
