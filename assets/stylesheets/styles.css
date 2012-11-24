@@ -72,7 +72,10 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 
 /* ================================================== G L O B A L S ================================================== */
 body { font: 16px/28px Helvetica, Arial, sans-serif; }
 
-h1 { color: #bfbfbf; font-size: 3em; }
+h1 { color: #bfbfbf; font-size: 3em; line-height: 45px; }
+
+h2 { color: #6f6f6f; font-size: 2em; }
 
 /* ================================================== F R O N T   P A G E ================================================== */
-#front-container { margin: 30px auto 0; width: 600px; }
+#front-container { margin: 30px auto 0; max-width: 600px; width: 100%; }
+#front-container ul#trends-list ul.articles-list { margin-left: 2%; }

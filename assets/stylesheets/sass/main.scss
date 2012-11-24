@@ -28,6 +28,12 @@ body {
 h1 {
 	color: #bfbfbf;
 	font-size: 3em;
+	line-height: 45px;
+}
+
+h2 {
+	color: #6f6f6f;
+	font-size: 2em;
 }
 
 /* ==================================================
@@ -35,13 +41,15 @@ h1 {
  * ================================================== */
  #front-container {
  	margin: 30px auto 0;
- 	width: 600px;
+ 	max-width: 600px;
+ 	width: 100%;
 
  	ul#trends-list {
  		@extend .stripped-list;
 
  		ul.articles-list {
  			@extend .stripped-list;
+ 			margin-left: 2%;
  		}
  	}
  }

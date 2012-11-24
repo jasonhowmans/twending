@@ -46,7 +46,7 @@ module Twending
     # Start page
     # ===============================================
     get '/' do
-      
+      redirect '/front'
     end
     
     def self.new(*)
