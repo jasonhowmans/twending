@@ -3,3 +3,6 @@ twitter:
  consumer_secret: ""
  oauth_token: ""
  oauth_token_secret: ""
+
+guardian:
+ api_key: ""

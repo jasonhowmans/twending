@@ -1,9 +1,8 @@
 <ul id="trends-list">
 	<% @trends.each do |trend| %>
 		<li><h2><%= trend[:name] %></h2>
-			<ul class="articles-list">
-				<li><h3>Article</h3><p>The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.</p></li>
-				<li><h3>Article</h3><p>The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.</p></li>
+			<ul class="articles-list" data-trend="<%= trend[:name].gsub('#','') %>">
+				<li class="im_loading">Loading stories</li>
 			</ul></li>
 	<% end %>
 </ul>

@@ -7,5 +7,6 @@ require 'twitter'
 CONFIG = YAML.load_file('config/ure.yml') unless defined? CONFIG
 
 run Rack::URLMap.new({
-	"/" => Twending::App
+	"/" => Twending::App,
+	"/stream" => Twending::Stream
 })
